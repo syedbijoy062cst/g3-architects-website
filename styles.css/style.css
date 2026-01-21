@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shered styles */
+
+
+.display-flex {
+  display: flex;
+}
+
+.btn{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+
+}
+.text-primary{
+    color: #FF900E;
+
+}
+
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+/* Dark-02 */
+.text-gray{
+    color: #424242;
+}
+
+/* Dark-03 */
+.text-light-gray{
+    color: #727272;
+}
+.bg-light-gray{
+    background-color:rgba(255, 144, 14, 0.1);
+}
+/* header style */
+
+/* nav related styles  */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-itam{
+    list-style: none;
+    margin-right: 30px;
+
+}
+.nav-link{
+    text-decoration: none;
+    color:#424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-contant{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-img{
+    width: 100%;
+}
+.teams{
+    align-items: center;
+}
+.img-contant{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.our-futures{
+    margin-left:130px ;
+    max-width: 530px;
+}
+
+
+#quick{
+    font-weight: 500;
+
+}
+
+@media screen and (max-width:576px) {
+    .navbar, .nav-link, .teams{
+        flex-direction: column;
+
+    }
+    .img-contan{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .our-futures{
+        margin-left: 20px;
+    }
+
+}
+
+/* medium */
+@media screen and (min-width:576px) and (mix-width:992px) {
+    .teams{
+        flex-direction: column;
+    }
+    .our-futures{
+        margin:50px auto;
+    }
+    
+}
+
+
