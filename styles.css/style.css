@@ -149,13 +149,34 @@ main > section{
         flex-direction: column;
 
     }
-    .img-contan{
+    .img-contant, .facts-contaner ,
+    .sponsors-compaine{
         grid-template-columns: repeat(1, 1fr);
     }
     .our-futures{
         margin-left: 20px;
     }
+    .sponsors-compaine{
+        justify-content: center;
+        gap: 50px;
 
+    }
+
+
+
+}
+.sponsors-info{
+    max-width: 540px;
+    margin:50px auto;
+    text-align: center;
+
+}
+.sponsors-compaine{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.sponsors-compaine img{
+    filter: grayscale(100%);
 }
 
 /* medium */
@@ -165,6 +186,14 @@ main > section{
     }
     .our-futures{
         margin:50px auto;
+    }
+    .fact{
+        justify-items: center;
+        gap: 40px;
+    }
+    .sponsors-compaine{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
     }
     
 }
